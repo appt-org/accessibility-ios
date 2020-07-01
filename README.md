@@ -1,6 +1,5 @@
 # Accessibility
 
-[![CI Status](https://img.shields.io/travis/Jan Jaap de Groot/Accessibility.svg?style=flat)](https://travis-ci.org/Jan Jaap de Groot/Accessibility)
 [![Version](https://img.shields.io/cocoapods/v/Accessibility.svg?style=flat)](https://cocoapods.org/pods/Accessibility)
 [![License](https://img.shields.io/cocoapods/l/Accessibility.svg?style=flat)](https://cocoapods.org/pods/Accessibility)
 [![Platform](https://img.shields.io/cocoapods/p/Accessibility.svg?style=flat)](https://cocoapods.org/pods/Accessibility)
