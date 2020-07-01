@@ -22,7 +22,7 @@ pod 'Accessibility'
 
 ## Author
 
-Jan Jaap de Groot, info@janjaap.com
+Jan Jaap de Groot, janjaap@abra.nl
 
 ## License
 

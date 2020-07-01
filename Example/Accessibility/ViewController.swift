@@ -3,22 +3,17 @@
 //  Accessibility
 //
 //  Created by Jan Jaap de Groot on 07/01/2020.
-//  Copyright (c) 2020 Jan Jaap de Groot. All rights reserved.
+//  Copyright (c) 2020 Abra BV. All rights reserved.
 //
 
 import UIKit
+import Accessibility
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+ 
+        Accessibility.announce("Example")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
-
