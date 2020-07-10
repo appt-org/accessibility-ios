@@ -18,14 +18,3 @@ extension Accessibility {
         UIAccessibility.post(notification: .pageScrolled, argument: announcement)
     }
 }
-
-extension UIAccessibility {
-    
-    /// Makes an announcement.
-    /// Should be used when a scroll action has completed and the accessibilityScroll(_:) method has been called.
-    ///
-    /// - parameter announcement: The announcement to make.
-    public static func pageScrolled(_ announcement: String) {
-        Accessibility.pageScrolled(announcement)
-    }
-}

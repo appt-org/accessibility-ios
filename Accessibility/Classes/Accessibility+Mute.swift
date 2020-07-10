@@ -10,20 +10,8 @@ import UIKit
 
 extension Accessibility {
     
-    /// Mutes the assistive technology, with an optional delay in seconds.
-    ///
-    /// - parameter delay: Delay in seconds.
+    /// Mutes the assistive technology
     public static func mute() {
         UIAccessibility.announce("  ")
-    }
-}
-
-extension UIAccessibility {
-    
-    /// Mutes the assistive technology, with an optional delay in seconds.
-    ///
-    /// - parameter delay: Delay in seconds.
-    public static func mute() {
-        Accessibility.mute()
     }
 }

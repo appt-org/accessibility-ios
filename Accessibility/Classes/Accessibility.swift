@@ -18,6 +18,20 @@ import UIKit
 ///
 open class Accessibility {
 
-    // Each method has its own class.
+    public static func getLabel(_ view: UIView) -> String? {
+        return view.accessibilityLabel
+    }
     
+    public static func setLabel(_ view: UIView, label: String?) {
+        view.accessibilityLabel = label
+    }
+    
+    
+    public static func getAction(_ view: UIView) -> String? {
+        return view.accessibilityHint
+    }
+    
+    public static func setAction(_ view: UIView, action: String?) {
+        view.accessibilityHint = action
+    }
 }

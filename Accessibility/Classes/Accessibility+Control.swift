@@ -25,21 +25,3 @@ extension Accessibility {
         UIAccessibility.post(notification: .resumeAssistiveTechnology, argument: identifier)
     }
 }
-
-extension UIAccessibility {
-    
-    /// Pauses the given assistive technology.
-    /// Note: you must balance this notification by calling resume()
-    ///
-    /// - parameter identifier: The identifier of the assistive technology.
-    public static func pause(_ identifier: UIAccessibility.AssistiveTechnologyIdentifier) {
-        Accessibility.pause(identifier)
-    }
-    
-    /// Resumes the given assistive technology
-    ///
-    /// - parameter identifier: The identifier of the assistive technology.
-    public static func resume(_ identifier: UIAccessibility.AssistiveTechnologyIdentifier) {
-        Accessibility.resume(identifier)
-    }
-}

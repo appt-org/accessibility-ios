@@ -26,22 +26,3 @@ extension Accessibility {
         UIAccessibility.post(notification: .layoutChanged, argument: announcement)
     }
 }
-
-extension UIAccessibility {
-    
-    /// Moves the focus to the given view.
-    /// Should be used when the layout of a screen changes, such as when an element appears or disappears.
-    ///
-    /// - parameter view: View to move focus to.
-    public static func layoutChanged(_ view: UIView) {
-        Accessibility.layoutChanged(view)
-    }
-    
-    /// Makes an announcement.
-    /// Should be used when the layout of a screen changes, such as when an element appears or disappears.
-    ///
-    /// - parameter announcement: The announcement to make.
-    public static func layoutChanged(_ announcement: String) {
-        Accessibility.layoutChanged(announcement)
-    }
-}
