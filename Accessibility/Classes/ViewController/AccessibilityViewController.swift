@@ -1,7 +1,7 @@
 import UIKit
 
 //
-//  AccessibleViewController.swift
+//  AccessibilityViewController.swift
 //  Accessibility
 //
 //  Created by Jan Jaap de Groot on 08-07-2020.
@@ -9,11 +9,11 @@ import UIKit
 //
 
 /// This class contains accessibility helper methods for UIView's.
-open class AccessibleViewController {
+open class AccessibilityViewController {
 
     private var viewController: UIViewController
     
-    private var view: AccessibleView {
+    private var view: AccessibilityView {
         return viewController.view.accessibility
     }
     
@@ -21,7 +21,7 @@ open class AccessibleViewController {
         self.viewController = viewController
     }
     
-    /// Accessibility elements of the view
+    /// Order of accessibility elements
     open var elements: [Any]? {
         get {
             return view.elements
@@ -33,7 +33,7 @@ open class AccessibleViewController {
     
     /// Posts an accessibility announcement to the assistive technology.
     ///
-    /// - parameter message: The message to announce.
+    /// - Parameter message: The message to announce.
     open func announce(_ message: String) {
         Accessibility.announce(message)
     }
@@ -47,9 +47,9 @@ open class AccessibleViewController {
 public extension UIViewController {
     
     /// Adds the `accessibility` field to all classes which inherit from UIViewController.
-    var accessibility: AccessibleViewController {
+    var accessibility: AccessibilityViewController {
         get {
-            return AccessibleViewController(self)
+            return AccessibilityViewController(self)
         }
     }
 }

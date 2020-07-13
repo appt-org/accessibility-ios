@@ -1,7 +1,7 @@
 import UIKit
 
 //
-//  AccessibleView.swift
+//  AccessibilityView.swift
 //  Accessibility
 //
 //  Created by Jan Jaap de Groot on 02-07-2020.
@@ -9,7 +9,7 @@ import UIKit
 //
 
 /// This class contains accessibility helper methods for UIView's.
-open class AccessibleView {
+open class AccessibilityView {
 
     private var view: UIView
     
@@ -57,9 +57,9 @@ open class AccessibleView {
 public extension UIView {
     
     /// Adds the `accessibility` field to all classes which inherit from UIView.
-    var accessibility: AccessibleView {
+    var accessibility: AccessibilityView {
         get {
-            return AccessibleView(self)
+            return AccessibilityView(self)
         }
     }
 }
