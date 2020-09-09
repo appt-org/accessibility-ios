@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Accessibility'
-  s.version          = '0.1.0'
-  s.summary          = 'This pod contains helper methods for accessibility.'
+  s.version          = '0.2.1'
+  s.summary          = 'Accessibility features in a unified way.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This pod provides an easier way of using accessibility methods in iOS applications.
+The purpose of this pod is to provide a unified way for accessibility features on Android on iOS.
                        DESC
 
   s.homepage         = 'https://github.com/appt-nl/accessibility-ios'
@@ -28,7 +28,7 @@ This pod provides an easier way of using accessibility methods in iOS applicatio
   s.source           = { :git => 'https://github.com/appt-nl/accessibility-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
   s.source_files = 'Accessibility/Classes/**/*'
