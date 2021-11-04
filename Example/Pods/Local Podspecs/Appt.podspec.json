@@ -1,7 +1,7 @@
 {
-  "name": "Accessibility",
+  "name": "Appt",
   "module_name": "Appt",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "Accessibility features in a unified way.",
   "description": "The purpose of this pod is to provide a unified way for accessibility features on Android and iOS.",
   "homepage": "https://github.com/appt-nl/accessibility-ios",
@@ -14,12 +14,12 @@
   },
   "source": {
     "git": "https://github.com/appt-nl/accessibility-ios.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "11.0"
   },
   "swift_versions": "5.0",
-  "source_files": "Accessibility/Classes/**/*",
+  "source_files": "Appt/Classes/**/*",
   "swift_version": "5.0"
 }

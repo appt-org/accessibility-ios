@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double AccessibilityVersionNumber;
-FOUNDATION_EXPORT const unsigned char AccessibilityVersionString[];
+FOUNDATION_EXPORT double ApptVersionNumber;
+FOUNDATION_EXPORT const unsigned char ApptVersionString[];
 

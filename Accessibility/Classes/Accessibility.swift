@@ -13,7 +13,7 @@ import UIKit
 /// [`Read more about accessibility on iOS`](https://developer.apple.com/accessibility/ios/).
 ///
 /// Usage:
-///     Accessibility.announce("Example")
+///     Appt.announce("Example")
 ///     UIAccessibility.announce("Example")
 ///
 open class Accessibility {
@@ -68,7 +68,7 @@ open class Accessibility {
     
     /// Mutes the assistive technology
     public static func mute() {
-        Accessibility.announce("  ")
+        announce("  ")
     }
     
     

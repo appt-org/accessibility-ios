@@ -8,7 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Accessibility'
-  s.version          = '0.2.1'
+  s.module_name      = 'Appt'
+  s.version          = '0.3.0'
   s.summary          = 'Accessibility features in a unified way.'
 
 # This description is used to generate tags and improve search results.
@@ -18,13 +19,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-The purpose of this pod is to provide a unified way for accessibility features on Android on iOS.
+The purpose of this pod is to provide a unified way for accessibility features on Android and iOS.
                        DESC
 
   s.homepage         = 'https://github.com/appt-nl/accessibility-ios'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Jan Jaap de Groot' => 'janjaap@abra.nl' }
+  s.author           = { 'Jan Jaap de Groot' => 'janjaap@appt.nl' }
   s.source           = { :git => 'https://github.com/appt-nl/accessibility-ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

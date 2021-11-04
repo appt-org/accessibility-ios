@@ -1,4 +1,4 @@
-framework module Accessibility {
+framework module Appt {
   umbrella header "Accessibility-umbrella.h"
 
   export *

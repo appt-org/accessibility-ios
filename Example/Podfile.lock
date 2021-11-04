@@ -1,43 +1,16 @@
 PODS:
-  - Accessibility (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Nimble (7.3.4)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
-  - Quick (1.2.0)
+  - Accessibility (0.3.0)
 
 DEPENDENCIES:
   - Accessibility (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-  - Nimble (~> 7.0)
-  - Nimble-Snapshots (~> 6.3.0)
-  - Quick (~> 1.2.0)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
-    - Nimble
-    - Nimble-Snapshots
-    - Quick
 
 EXTERNAL SOURCES:
   Accessibility:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Accessibility: c4ef8f6b94539d301a2a6c66f4e32ec4a84ea436
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Accessibility: 7f1df5823beb7b2c59e59b40df328660e231b3af
 
-PODFILE CHECKSUM: afe6c5c8b638e650573e29c5316143e6f4604f88
+PODFILE CHECKSUM: ae707e4b4cde20d3bec766026a2b25b953e43260
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.2

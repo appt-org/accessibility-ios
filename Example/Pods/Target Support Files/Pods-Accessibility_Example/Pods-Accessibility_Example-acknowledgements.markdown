@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Accessibility
 
-Copyright (c) 2020 Jan Jaap de Groot <info@janjaap.com>
+Copyright (c) 2020 Abra B.V. <info@abra.nl>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
