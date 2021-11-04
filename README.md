@@ -43,9 +43,14 @@ it, simply add the following line to your Podfile:
 pod 'Accessibility'
 ```
 
+The module has been renamed to `Appt`, because iOS 15 uses the `Accessibility` namespace.
+```swift
+import Appt
+```
+
 ## Author
 
-Jan Jaap de Groot, janjaap@abra.nl
+Jan Jaap de Groot, janjaap@appt.nl
 
 ## License
 
