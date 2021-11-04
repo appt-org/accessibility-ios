@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Accessibility'
   s.module_name      = 'Appt'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'Accessibility features in a unified way.'
 
 # This description is used to generate tags and improve search results.
